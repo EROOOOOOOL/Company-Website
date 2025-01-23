@@ -1,6 +1,7 @@
 <template>
     <div>
       <header>
+        <img src="../assets/logo.png" alt="Company Logo" class="logo" />
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -8,7 +9,6 @@
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </nav>
-        <img src="../assets/logo.png" alt="Company Logo" class="logo" />
       </header>
   
       <section id="home">
@@ -101,8 +101,9 @@
 
 <style>
 .banner {
+  position: relative;
   text-align: center;
-  padding: 8rem 2rem; /* Increase vertical padding */
+  padding: 10rem 2rem;
   background-image: url('../assets/banner.jpg');
   background-size: cover;
   background-position: center;
@@ -111,13 +112,15 @@
 }
 
 .banner h2 {
-  font-size: 2.5rem; /* Increase headline font size */
+  font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .banner p {
-  font-size: 1.25rem; /* Adjust paragraph font size */
+  font-size: 1.25rem;
   margin-top: 0;
+  color: white;
 }
 
 .popup {
